@@ -24,6 +24,8 @@ set expandtab
 set wrap
 set textwidth=80
 
+colorscheme elflord
+
 "Split windows
 nmap <silent> rr <Esc>:tabnew<CR>
 nmap <silent> tt <Esc>:split<CR>
