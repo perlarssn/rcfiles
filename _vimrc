@@ -1,5 +1,6 @@
 "Navigation
 imap jj <Esc>
+
 nnoremap j gj
 nnoremap k gk
 nmap J 5j
