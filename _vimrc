@@ -43,6 +43,10 @@ set hlsearch
 "Remove search highlight
 nnoremap ,<Space> :noh<CR>
 
+" Mac settings:
+syntax on
+set backspace=start,eol,indent
+
 "Insert <Tab> or complete identifier if the cursor is after a keyword
 "character.
 function! MyTabOrComplete()
