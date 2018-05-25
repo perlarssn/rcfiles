@@ -25,7 +25,7 @@ set expandtab
 set wrap
 set textwidth=80
 
-colorscheme elflord
+colorscheme murphy
 
 "Split windows
 nmap <silent> rr <Esc>:tabnew<CR>
@@ -58,3 +58,6 @@ function! MyTabOrComplete()
 	endif
 endfunction
 inoremap <Tab> <C-R>=MyTabOrComplete()<CR>
+
+"Pathogen plugin
+execute pathogen#infect()
