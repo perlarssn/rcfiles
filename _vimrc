@@ -1,6 +1,10 @@
 "Navigation
 imap jj <Esc>
 
+
+scriptencoding utf8
+set encoding=utf8
+
 nnoremap j gj
 nnoremap k gk
 nmap J 5j
@@ -61,3 +65,6 @@ inoremap <Tab> <C-R>=MyTabOrComplete()<CR>
 
 "Pathogen plugin
 execute pathogen#infect()
+
+set listchars=trail:·,precedes:«,extends:»,tab:▸\b
+set list
