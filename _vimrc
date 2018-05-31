@@ -7,10 +7,11 @@ set encoding=utf8
 
 nnoremap j gj
 nnoremap k gk
-nmap J 5j
-nmap K 5k
-nmap L 5l
-nmap H 5h
+nmap J 7j
+nmap K 7k
+nmap L 7l
+nmap H 7h
+nmap § <Esc>:w!<CR>
 
 set ai
 set number
