@@ -1,4 +1,4 @@
-rm ~/.vim;
+rm -r ~/.vim;
 rm ~/.vimrc;
 rm ~/.Xresources;
 rm ~/.bashrc;
