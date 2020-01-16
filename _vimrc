@@ -69,3 +69,6 @@ execute pathogen#infect()
 
 set listchars=trail:·,precedes:«,extends:»,tab:▸\b
 set list
+
+" enable lightline status bar
+set laststatus=2
