@@ -81,3 +81,5 @@ let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 inoremap {<cr> {<cr>}<c-o>O<tab>
 inoremap [<cr> [<cr>]<c-o>O<tab>
 inoremap (<cr> (<cr>)<c-o>O<tab>
+
+nnoremap - /
